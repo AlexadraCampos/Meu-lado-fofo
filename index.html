@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Por favor clique em mim</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+    <script type="text/javascript">
+        function showPrompt() {
+            // Exibe o prompt e armazena a resposta na variável 'response'
+            var response = prompt("Clique aqui para responder:");
+
+            // Verifica se a resposta não é nula (o usuário não clicou em cancelar)
+            if (response !== null) {
+                // Mostra a resposta em um alert
+                alert("Olá, Rafa. Obrigado pela resposta!");
+
+                // Exibe a resposta no console do navegador
+                console.log("Resposta do usuário: " + response);
+                
+                // Aqui você pode adicionar qualquer outra lógica para usar a resposta
+
+                // Exibe o primeiro alerta após o prompt
+                alert("Esse um gesto que me importo muito com nossos sentimentos o que posso fazer mais pra fazer voce enxegar isso?");
+
+                // Exibe o segundo alerta após o primeiro
+                alert("nao responda, da trabalho fazer isso kkkk me fala dps pq isso aqui nao ta em tempo real infelizmente");
+
+            } else {
+                alert("Você cancelou, Que coisa feia");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Por favor clique em mim</h1>
+        <button onclick="showPrompt()">Você gosta de mim?</button>
+        <div>
+            <img src="Casal.jpeg" alt="Imagem de um casal">
+        </div>
+    </div>
+</body>
+</html>
+
